@@ -23,7 +23,7 @@ margin: 0 auto;
   --modal-title-color: #2E2F42;
   --modal-form-check-desc: #8E8F99;
   --modal-form-check-checked: #404bbf; 
-  --modal-form-check-checked-fill: #FFFFFF;
+  --modal-form-check-checked-fill: #F4F4FD;
 }
 /* @keyframes rotator{
 0% {
@@ -883,17 +883,12 @@ margin-bottom: 8px;
  margin-bottom: 4px;
   color: #8E8F99;
 }
-/* .input-label span {
-  display: block;
-  margin-bottom: 4px;
-} */
+
 .modal-field {
   width: 100%;
-  border-radius: 4px;
   margin-bottom: 8px;
-  margin-bottom: 16px;
+  border-radius: 4px;
   position: relative;
-  /* border: 1px solid #2e2f4266; */
 }
 
 
