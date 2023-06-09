@@ -975,7 +975,7 @@ color: var(--modal-form-check-desc);
   border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
   fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.modal-form-check:checked + .modal-form-check-quadro {
+.modal-form-check:checked + label> .modal-form-check-quadro {
   border: none; 
   background-color: var(--modal-form-check-checked);
   fill: var(--modal-form-check-checked-fill);
