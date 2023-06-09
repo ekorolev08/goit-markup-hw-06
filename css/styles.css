@@ -851,7 +851,7 @@ padding: 72px 24px 24px 24px;
   align-items: center;
 }
 .modal-field {
-  margin-bottom: 8px;
+margin-bottom: 8px;
 }
 
 .modal-input {
@@ -922,7 +922,7 @@ letter-spacing: 0.04em;
   height: 120px;
   padding: 8px 16px;
   color: rgba(46, 47, 66, 0.4);
-  border: 1px solid rgba(46, 47, 66, 0.2);
+  border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 resize: none;
@@ -1002,7 +1002,7 @@ border-radius: 2px;
 .modal-button {
   display: block;
   align-self: center;
-  font-family: 'Roboto', 'sans-serif';
+  font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
