@@ -450,11 +450,11 @@ referrerpolicy="no-referrer" />
     <form class="footer-form">
         <div class="footer-field">
             <p class="footer-title">Subscribe</p>
-        <!-- <label for="user-email" class="footer-input-label"></label> -->
+        <!-- <label for="footer-user-email" class="footer-input-label"></label> -->
         <div class="footer-input-wrap">
         <input type="email" 
-        name="user-email" 
-        id="user-email"
+        name="footer-user-email" 
+        id="footer-user-email"
         placeholder="E-mail"
         class="footer-input-label"  
         required>
@@ -520,12 +520,13 @@ referrerpolicy="no-referrer" />
     </div>
 </div>
 <div class="modal-field">
-    <label for="user-text" class="input-label" >Comment</label>
-    <textarea name="user-text" id="user-text" class="modal-comment" placeholder="Text input"></textarea>
+    <label for="user-comment" class="input-label" >Comment</label>
+    <textarea name="user-comment" id="user-comment" class="modal-comment" placeholder="Text input"></textarea>
 </div>
-<input type="checkbox"  id="user-policy" name="user-policy" class="modal-form-check visually-hidden">
-<label for="user-policy" class="modal-form-check-desc">I accept the terms and conditions of the&nbsp;<a href="">Privacy Policy</a></label>
-
+<div class="modal-checkbox">
+<input type="checkbox"  id="user-privacy" name="user-privacy" value="true" class="modal-form-check visually-hidden">
+<label for="user-privacy" class="modal-form-check-desc">I accept the terms and conditions of the&nbsp;<a href="">Privacy Policy</a></label>
+</div>
 <button type="submit" class="modal-button">Send</button>
             </form>
         </div>
