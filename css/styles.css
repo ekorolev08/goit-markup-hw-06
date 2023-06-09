@@ -890,7 +890,7 @@ margin-bottom: 8px;
 .modal-field {
   width: 100%;
   border-radius: 4px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   position: relative;
   /* border: 1px solid #2e2f4266; */
 }
@@ -950,7 +950,6 @@ background-color: transparent;
   margin-bottom: 24px;
 }
 .modal-form-check-desc {
-display: flex;
 align-items: center;
   font-family: 'Roboto';
 font-style: normal;
@@ -965,7 +964,7 @@ color: var(--modal-form-check-desc);
 .modal-form-check-quadro {
   align-items: center;
   justify-content: center;
-  display: flex;
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
