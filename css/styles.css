@@ -883,13 +883,13 @@ margin-bottom: 8px;
  margin-bottom: 4px;
   color: #8E8F99;
 }
-.modal-field-name{
+.modal-field-cont{
   width: 100%;
   margin-bottom: 8px;
   border-radius: 4px;
   position: relative;
 }
-.modal-field {
+.modal-field-comment {
   width: 100%;
   margin-bottom: 16px;
   border-radius: 4px;
