@@ -447,7 +447,29 @@ referrerpolicy="no-referrer" />
                                     </li>
         </ul>
     </div>
+    <form class="footer-form">
+        <div class="footer-field">
+            <p class="footer-title">Subscribe</p>
+        <!-- <label for="user-email" class="footer-input-label"></label> -->
+        <div class="footer-input-wrap">
+        <input type="email" 
+        name="user-email" 
+        id="user-email"
+        placeholder="E-mail"
+        class="footer-input-label"  
+        required>
+        <button type="button" class="footer-subscribe-btn">Subscribe
+            <svg width="24" height="20" class="footer-send-icon">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+            </svg>
+        </button>
+    </div>
+    </div>
+     </form>
 </div>
+
+
+
     </footer>
     <div class="backdrop  is-hidden" data-modal>
         <div class="modal" >
@@ -501,6 +523,9 @@ referrerpolicy="no-referrer" />
     <label for="user-text" class="input-label" >Comment</label>
     <textarea name="user-text" id="user-text" class="modal-comment" placeholder="Text input"></textarea>
 </div>
+<input type="checkbox"  id="user-policy" name="user-policy" class="modal-form-check visually-hidden">
+<label for="user-policy" class="modal-form-check-desc">I accept the terms and conditions of the&nbsp;<a href="">Privacy Policy</a></label>
+
 <button type="submit" class="modal-button">Send</button>
             </form>
         </div>
